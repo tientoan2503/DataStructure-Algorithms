@@ -1,5 +1,5 @@
 //
-//  Thuật toán xâu sinh nhị phân
+//  Thuật toán sinh xâu nhị phân
 //
 //  Created by Nguyễn Tiến Toàn  on 17/9/24.
 //
@@ -7,7 +7,7 @@
 #include <iostream>
 
 void generation(int n) {
-    int x[100];
+    int x[n];
     // init beginning value of x: 00...000
     for (int i = 0; i < n; i++) {
         x[i] = 0;
